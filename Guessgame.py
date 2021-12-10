@@ -26,5 +26,6 @@ while user_turns > 0:
         print('You have',user_turns,'Chances')
         if user_turns==0:
             print('you LOSE')
-
+if guess == chr(27):
+    False
 
